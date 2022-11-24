@@ -1,0 +1,140 @@
+[
+	{
+		"title": "Maniacal Automatic T-shirt Tank",
+		"desc": "A tank robot with an air-powered t-shirt cannon, controlled by an Arduino",
+		"src": "github.com/FIRSTTeam102/ArduinoTshirtTankBot",
+		"lang": "Arduino",
+		"image": "https://images.unsplash.com/photo-1553408226-42ecf81a214c?w=800&q=80"
+	},
+	{
+		"title": "Scoutradioz",
+		"desc": "A multi-year, multi-team FRC scouting app developed by Team 102 with international support.",
+		"url": "scoutradioz.com",
+		"src": "github.com/FIRSTTeam102/ScoringApp-Serverless",
+		"lang": "TypeScript",
+		"image": "https://files.calum.ml/2022/11/msedge_2022-11-23-09-05-34-PM.png"
+	},
+	{
+		"title": "SC 4-H Fair App v2",
+		"desc": "A rewrite of the previous fair app in Svelte with additional features",
+		"url": "v2.sc4hfair.app",
+		"src": "github.com/cyfinfaza/sc4hfair-sveltekit",
+		"lang": "SvelteKit",
+		"image": "https://files.calum.ml/2022/11/2022-11-23-09-09-58-PM.png"
+	},
+	{
+		"title": "SC 4-H Fair App (2022)",
+		"desc": "The 2022 fair app allows users to interact and discover events and locations at the fair, and won the 2022 4-H fair manager's award",
+		"url": "sc4hfair.app",
+		"src": "github.com/cyfinfaza/sc4hfair",
+		"lang": "Gatsby/React",
+		"image": "https://files.calum.ml/2022/11/msedge_2022-11-23-09-12-08-PM.png"
+	},
+	{
+		"title": "WikiWikiGenerator",
+		"desc": "Finds information about Fandom wikis",
+		"src": "github.com/caburum/WikiWikiGenerator",
+		"lang": "Python",
+		"image": "https://files.calum.ml/2022/11/2022-11-23-09-31-09-PM.png"
+	},
+	{
+		"title": "FileForm",
+		"desc": "Creates an interactive form that fills out a template when uploading a file for Fandom wikis",
+		"src": "dev.fandom.com/wiki/FileForm",
+		"lang": "JavaScript",
+		"image": "https://files.calum.ml/2022/11/2022-11-23-09-18-22-PM.png"
+	},
+	{
+		"title": "rcdb-scraper",
+		"desc": "Create a CSV file with roller coaster stats from RCDB",
+		"src": "github.com/caburum/rcdb-scraper",
+		"lang": "Python",
+		"image": "https://files.calum.ml/2022/11/msedge_2022-11-23-10-25-51-PM.png",
+		"imagePosition": "0 0"
+	},
+	{
+		"title": "password-memorization-practice",
+		"desc": "Tool to practice typing in your password",
+		"url": "password-memorization-practice.vercel.app",
+		"src": "github.com/caburum/password-memorization-practice",
+		"lang": "Svelte",
+		"image": "https://files.calum.ml/2022/11/msedge_2022-11-23-09-39-02-PM.png"
+	},
+	{
+		"title": "Gari",
+		"desc": "FRC Team 102's 2022 robot",
+		"src": "github.com/FIRSTTeam102/Robot2022",
+		"lang": "WPILib/C++",
+		"image": "https://files.calum.ml/2022/11/2022%20102%20rvsts.jpg"
+	},
+	{
+		"title": "fandom-reported-posts-bot",
+		"desc": "Logs reported posts from Fandom to a Discord webhook",
+		"src": "github.com/caburum/fandom-reported-posts-bot",
+		"lang": "JavaScript",
+		"image": "https://files.calum.ml/2022/11/Discord_2022-11-23-09-21-29-PM.png",
+		"imagePosition": "0"
+	},
+	{
+		"title": "Among Us Wiki Bot",
+		"desc": "Modular and configurable MediaWiki bot for the Among Us Wiki",
+		"url": "https://among-us.fandom.com/wiki/Special:Contributions/Among_Us_Wiki_Bot",
+		"src": "github.com/caburum/AmongUsWikiBot",
+		"lang": "TypeScript",
+		"image": "https://files.calum.ml/2022/11/msedge_2022-11-23-09-36-48-PM.png"
+	},
+	{
+		"title": "fandom-contribs-graph",
+		"desc": "Generates a graph of contributions per day on a Fandom wiki",
+		"url": "fandom-contribs-graph.ccreativecnd.repl.co",
+		"src": "github.com/caburum/fandom-contribs-graph",
+		"lang": "JavaScript",
+		"image": "https://files.calum.ml/2022/11/msedge_2022-11-23-09-47-02-PM.png",
+		"imagePosition": "center 85%"
+	},
+	{
+		"title": "DriveLikeACar",
+		"desc": "Racing wheel control for a FRC robot",
+		"src": "github.com/FIRSTTeam102/DriveLikeACar",
+		"lang": "WPILib/C++",
+		"image": "https://files.calum.ml/2022/11/msedge_2022-11-23-09-51-22-PM.png",
+		"imagePosition": "center 75%"
+	},
+	{
+		"title": "R2-102",
+		"desc": "FRC Team 102's 2021 robot, offseason edition",
+		"src": "github.com/FIRSTTeam102/Robot2021-Offseason",
+		"lang": "WPILib/C++",
+		"image": "https://files.calum.ml/2022/11/2021_102_be.jpg"
+	},
+	{
+		"title": "BulkGeniusLyricsGetter",
+		"desc": "Scrape lyrics off of Genius in bulk",
+		"src": "github.com/caburum/BulkGeniusLyricsGetter",
+		"lang": "Python",
+		"image": "https://files.calum.ml/2022/11/msedge_2022-11-23-10-06-24-PM.png"
+	},
+	{
+		"title": "EditLeaderboard",
+		"desc": "Creates a leaderboard based on edit count for Fandom wikis",
+		"src": "dev.fandom.com/wiki/EditLeaderboard",
+		"lang": "JavaScript",
+		"image": "https://files.calum.ml/2022/11/msedge_2022-11-23-09-54-33-PM.png"
+	},
+	{
+		"title": "yagpdb-counter",
+		"desc": "A simple counting channel powered by the YAGPDB Discord bot",
+		"src": "github.com/caburum/yagpdb-counter",
+		"lang": "Go",
+		"image": "https://files.calum.ml/2022/11/Discord_2022-11-23-10-03-37-PM.png",
+		"imagePosition": "0"
+	},
+	{
+		"title": "Cabot",
+		"desc": "A simple, modular Discord bot",
+		"url": "cabot.ccreativecnd.repl.co",
+		"src": "github.com/caburum/Cabot",
+		"lang": "JavaScript",
+		"image": "https://files.calum.ml/2022/11/msedge_2022-11-23-10-10-55-PM.png"
+	}
+]

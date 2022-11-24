@@ -1,0 +1,146 @@
+:root {
+	scroll-behavior: smooth;
+}
+
+$transition: 300ms ease;
+$border-radius: .5rem;
+$padding-sm: .5rem;
+$padding-md: 1rem;
+
+.theme-dark {
+	color-scheme: dark;
+
+	// https://material.io/design/color/theme.html#properties
+	// https://m2.material.io/design/environment/elevation.html#default-elevations
+	--surface-00dp: #121212;
+	--surface-01dp: #1d1d1d;
+	--surface-02dp: #222222;
+	--surface-03dp: #242424;
+	--surface-04dp: #262626;
+	--surface-06dp: #2c2c2c;
+	--surface-08dp: #2d2d2d;
+	--surface-12dp: #323232;
+	--surface-16dp: #353535;
+	--surface-24dp: #373737;
+
+	--text: #eee;
+	--text-emphasized: #fefefe;
+	--text-subtle: #c5c5c5;
+
+	--accent: #028388;
+	--accent-hover: #{lighten(#028388, 10%)};
+	--accent-label: #fff;
+
+	--image-dimmer-color: 0, 0, 0;
+}
+
+.theme-light {
+	--surface-00dp: #fefefe;
+	--surface-01dp: #fafafa;
+	--surface-02dp: #f9f9f9;
+	--surface-03dp: #f8f8f8;
+	--surface-04dp: #f7f7f7;
+	--surface-06dp: #f7f7f7;
+	--surface-08dp: #f6f6f6;
+	--surface-12dp: #f5f5f5;
+	--surface-16dp: #f2f2f2;
+	--surface-24dp: #f0f0f0;
+
+	--text: #111;
+	--text-emphasized: #050505;
+	--text-subtle: #333;
+
+	--accent: #026A6E;
+	--accent-hover: #{darken(#026A6E, 5%)};
+	--accent-label: #fff;
+	
+	--image-dimmer-color: 255, 255, 255;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+	width: 100%;
+	background-color: var(--surface-00dp);
+	color: var(--text);
+	transition: background-color $transition, color $transition;
+	font-family: sans-serif; // todo: use a font
+}
+
+a {
+	color: var(--text);
+	text-decoration: underline;
+
+	&:hover {
+		color: var(--accent);
+	}
+	&:focus, &:active {
+		color: var(--accent-hover);
+	}
+}
+
+::selection {
+	background-color: var(--selection);
+}
+
+* {
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+*:focus {
+	outline: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+}
+
+.button {
+	display: inline-flex;
+	flex-direction: row;
+	place-content: center;
+	text-align: center;
+	width: auto;
+	margin: 0;
+	padding: $padding-sm;
+	border-radius: $border-radius;
+	user-select: none;
+}
+
+.accent {
+	background-color: var(--accent);
+	color: var(--accent-label);
+	transition: background-color .2s ease;
+
+	&:active {
+		background-color: var(--accent-hover);
+	}
+}
+
+.cards {
+	$card-width: var(--card-width, 20em);
+	$card-height: var(--card-height, 10em);
+
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax($card-width, 1fr));
+	grid-gap: 0.5rem;
+	justify-items: center;
+
+	.card {
+		min-width: $card-width;
+		width: 100%;
+		min-height: $card-height;
+	}
+}
+
+.card {
+	background-color: var(--surface-01dp);
+	padding: $padding-md;
+	border-radius: $border-radius;
+	transition: background-color $transition;
+	box-sizing: border-box;
+
+	overflow-wrap: break-word;
+	overflow: hidden;
+}
