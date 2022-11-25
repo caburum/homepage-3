@@ -81,7 +81,8 @@ a {
 }
 
 ::selection {
-	background-color: var(--selection);
+	background-color: var(--accent);
+	color: var(--accent-label);
 }
 
 * {
