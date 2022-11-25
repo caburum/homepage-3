@@ -3,9 +3,7 @@
 	// export let data;
 
 	import { themes, theme } from 'logic/theming';
-	let /** @type {typeof themes[0]} */ nextTheme,
-		/** @type {typeof themes[0]} */ currentTheme,
-		/** @type {HTMLDivElement} */ themeIcon;
+	let /** @type {typeof themes[0]} */ nextTheme, /** @type {typeof themes[0]} */ currentTheme;
 	$: {
 		currentTheme =
 			themes.filter((item, index) => {
@@ -15,10 +13,6 @@
 				}
 				return false;
 			})[0] || themes[0];
-		if (themeIcon) {
-			themeIcon.classList.remove('animate');
-			themeIcon.classList.add('animate');
-		}
 	}
 	let doNextTheme = () => ($theme = nextTheme.id);
 
@@ -46,8 +40,8 @@
 					on:keypress={doNextTheme}
 				>
 					{#key $theme}
-						<div class="themeIcon" bind:this={themeIcon}>
-							<svelte:component this={currentTheme.icon} />
+						<div class="themeIcon">
+							<svelte:component this={currentTheme.icon} class="themeIcon" />
 						</div>
 					{/key}
 				</div>
@@ -106,6 +100,10 @@
 			:global(svg),
 			div {
 				display: flex;
+			}
+
+			:focus {
+				color: var(--accent);
 			}
 		}
 	}

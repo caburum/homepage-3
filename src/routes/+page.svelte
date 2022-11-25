@@ -1,10 +1,14 @@
 <script>
+	import SEO from 'components/SEO.svelte';
+
 	import projects from 'data/projects.json';
 
 	import GitHubIcon from 'assets/github.svg?component';
 	import CodeIcon from 'assets/code.svg?component';
 	import GoToIcon from '@material-design-icons/svg/outlined/open_in_new.svg?component';
 </script>
+
+<SEO title="Portfolio" />
 
 <main>
 	<h1 style:font-size="3em">Hi, I'm Calum, a.k.a Caburum.</h1>
