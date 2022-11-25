@@ -1,18 +1,21 @@
 import { writable } from 'svelte/store';
 import { browser } from '$app/environment';
 
+import DarkModeIcon from '@material-design-icons/svg/filled/dark_mode.svg?component';
+import LightModeIcon from '@material-design-icons/svg/filled/light_mode.svg?component';
+
 export const themes = [
 	{
 		id: 'dark',
 		name: 'Dark mode',
-		icon: '🌒',
-		button: 'Join the dark side'
+		icon: DarkModeIcon,
+		action: 'Join the dark side'
 	},
 	{
 		id: 'light',
 		name: 'Light mode',
-		icon: '☀️',
-		button: 'Burn your eyes'
+		icon: LightModeIcon,
+		action: 'Set your eyes on fire'
 	}
 ];
 

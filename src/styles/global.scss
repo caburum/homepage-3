@@ -65,7 +65,7 @@ body {
 	background-color: var(--surface-00dp);
 	color: var(--text);
 	transition: background-color $transition, color $transition;
-	font-family: sans-serif; // todo: use a font
+	font-family: 'Figtree', sans-serif;
 }
 
 a {

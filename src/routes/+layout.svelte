@@ -3,7 +3,9 @@
 	// export let data;
 
 	import { themes, theme } from 'logic/theming';
-	let /** @type {themes[0]} */ nextTheme, /** @type {themes[0]} */ currentTheme;
+	let /** @type {typeof themes[0]} */ nextTheme,
+		/** @type {typeof themes[0]} */ currentTheme,
+		/** @type {HTMLDivElement} */ themeIcon;
 	$: {
 		currentTheme =
 			themes.filter((item, index) => {
@@ -13,10 +15,16 @@
 				}
 				return false;
 			})[0] || themes[0];
+		if (themeIcon) {
+			themeIcon.classList.remove('animate');
+			themeIcon.classList.add('animate');
+		}
 	}
 	let doNextTheme = () => ($theme = nextTheme.id);
 
 	import CLogo from 'assets/c.svg?component';
+	// import HomeIcon from '@material-design-icons/svg/filled/home.svg?component';
+
 	import 'styles/global.scss';
 </script>
 
@@ -26,15 +34,22 @@
 		<ul>
 			<li><a href="/">Home</a></li>
 			<li><a href="https://github.com/caburum">GitHub</a></li>
+			<li><a href="https://youtube.com/@caburum">YouTube</a></li>
+			<li><a href="https://community.fandom.com/wiki/User:Caburum">Fandom</a></li>
 			<li>
 				<div
-					class="button accent"
+					aria-label={currentTheme.name}
+					title={nextTheme.action}
 					role="button"
 					tabindex="0"
 					on:click={doNextTheme}
 					on:keypress={doNextTheme}
 				>
-					{nextTheme.button}
+					{#key $theme}
+						<div class="themeIcon" bind:this={themeIcon}>
+							<svelte:component this={currentTheme.icon} />
+						</div>
+					{/key}
 				</div>
 			</li>
 		</ul>
@@ -80,13 +95,28 @@
 			margin: 0;
 			display: flex;
 			align-items: center;
-			justify-content: space-between;
+			justify-content: flex-end;
+			flex-wrap: wrap;
 			gap: 0.75em;
 
 			a {
 				text-decoration: none;
 				font-weight: 500;
 			}
+			:global(svg),
+			div {
+				display: flex;
+			}
+		}
+	}
+	.themeIcon {
+		transition: transform 650ms ease;
+		animation: themeSpin 650ms ease;
+		cursor: pointer;
+	}
+	@keyframes themeSpin {
+		0% {
+			transform: rotate(-360deg);
 		}
 	}
 

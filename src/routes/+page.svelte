@@ -3,12 +3,12 @@
 
 	import GitHubIcon from 'assets/github.svg?component';
 	import CodeIcon from 'assets/code.svg?component';
-	import GoToIcon from 'assets/goto.svg?component';
+	import GoToIcon from '@material-design-icons/svg/outlined/open_in_new.svg?component';
 </script>
 
 <main>
 	<h1 style:font-size="3em">Hi, I'm Calum, a.k.a Caburum.</h1>
-	<p>I'm a student dev and stuff and things.</p>
+	<p>I'm a student dev, mostly working on web development and robotics.</p>
 
 	<h1>Projects</h1>
 
@@ -91,6 +91,7 @@
 		h1 {
 			grid-area: title;
 			font-size: 1.3em;
+			font-weight: 700;
 			@include line-clamp(2);
 		}
 
@@ -106,6 +107,7 @@
 		.lang {
 			grid-area: subtitle;
 			font-size: 0.8em;
+			font-weight: 500;
 			color: var(--text-subtle);
 		}
 
