@@ -1,5 +1,19 @@
 [
 	{
+		"title": "Robot2023",
+		"desc": "FRC Team 102's 2023 robot for CHARGED UP",
+		"src": "github.com/FIRSTTeam102/Robot2023",
+		"lang": "WPILib/Java",
+		"image": "https://files.calum.ml/2023/02/2023-02-26-02-07-27-PM.png"
+	},
+	{
+		"title": "Scoutradioz™ Voyager",
+		"desc": "The next gen version of Scoutradioz designed to work fully offline as a PWA",
+		"src": "github.com/FIRSTTeam102/ScoringApp-Serverless/tree/master/voyager",
+		"lang": "SvelteKit",
+		"image": "https://files.calum.ml/2023/02/msedge_2023-02-26-01-56-58-PM.png"
+	},
+	{
 		"title": "Maniacal Automatic T-shirt Tank",
 		"desc": "A tank robot with an air-powered t-shirt cannon, controlled by an Arduino",
 		"src": "github.com/FIRSTTeam102/ArduinoTshirtTankBot",
@@ -7,8 +21,8 @@
 		"image": "https://images.unsplash.com/photo-1553408226-42ecf81a214c?w=800&q=80"
 	},
 	{
-		"title": "Scoutradioz",
-		"desc": "A multi-year, multi-team FRC scouting app developed by Team 102 with international support.",
+		"title": "Scoutradioz™",
+		"desc": "A multi-year, multi-team FRC scouting app developed by Team 102 with international support",
 		"url": "scoutradioz.com",
 		"src": "github.com/FIRSTTeam102/ScoringApp-Serverless",
 		"lang": "TypeScript",
