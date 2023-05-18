@@ -1,14 +1,23 @@
 [
 	{
-		"title": "Robot2023",
+		"title": "discord-memes",
+		"desc": "Site to show random memes from a Discord server",
+		"url": "https://memes.4hcomputers.club",
+		"src": "github.com/caburum/discord-memes",
+		"lang": "JavaScript",
+		"image": "https://files.calum.ml/2023/05/Code_2023-05-18-06-56-54-PM.png"
+	},
+	{
+		"title": "Pinchy",
 		"desc": "FRC Team 102's 2023 robot for CHARGED UP",
 		"src": "github.com/FIRSTTeam102/Robot2023",
 		"lang": "WPILib/Java",
-		"image": "https://files.calum.ml/2023/02/2023-02-26-02-07-27-PM.png"
+		"image": "https://files.calum.ml/2023/05/ApplicationFrameHost_2023-05-18-06-58-37-PM.png",
+		"imagePosition": "bottom"
 	},
 	{
 		"title": "Scoutradioz™ Voyager",
-		"desc": "The next gen version of Scoutradioz designed to work fully offline as a PWA",
+		"desc": "The next gen version of Scoutradioz, which works fully offline as a PWA",
 		"src": "github.com/FIRSTTeam102/ScoringApp-Serverless/tree/master/voyager",
 		"lang": "SvelteKit",
 		"image": "https://files.calum.ml/2023/02/msedge_2023-02-26-01-56-58-PM.png"
@@ -25,13 +34,21 @@
 		"desc": "A multi-year, multi-team FRC scouting app developed by Team 102 with international support",
 		"url": "scoutradioz.com",
 		"src": "github.com/FIRSTTeam102/ScoringApp-Serverless",
-		"lang": "TypeScript",
+		"lang": "Express/TypeScript",
 		"image": "https://files.calum.ml/2022/11/msedge_2022-11-23-09-05-34-PM.png"
 	},
 	{
+		"title": "scoutradioz-team-map",
+		"desc": "A map of teams using Scoutradioz™",
+		"url": "https://scoutradioz-team-map.vercel.app/",
+		"src": "github.com/caburum/scoutradioz-team-map",
+		"lang": "SvelteKit",
+		"image": "https://files.calum.ml/2023/05/msedge_2023-05-18-07-02-57-PM.png"
+	},
+	{
 		"title": "SC 4-H Fair App v2",
-		"desc": "A rewrite of the previous fair app in Svelte with additional features",
-		"url": "v2.sc4hfair.app",
+		"desc": "The new app for the fair, now in Svelte with more features",
+		"url": "sc4hfair.app",
 		"src": "github.com/cyfinfaza/sc4hfair-sveltekit",
 		"lang": "SvelteKit",
 		"image": "https://files.calum.ml/2022/11/2022-11-23-09-09-58-PM.png"
@@ -39,7 +56,7 @@
 	{
 		"title": "SC 4-H Fair App (2022)",
 		"desc": "The 2022 fair app allows users to interact and discover events and locations at the fair, and won the 2022 4-H fair manager's award",
-		"url": "sc4hfair.app",
+		"url": "v1.sc4hfair.app",
 		"src": "github.com/cyfinfaza/sc4hfair",
 		"lang": "Gatsby/React",
 		"image": "https://files.calum.ml/2022/11/msedge_2022-11-23-09-12-08-PM.png"
@@ -142,6 +159,15 @@
 		"lang": "Go",
 		"image": "https://files.calum.ml/2022/11/Discord_2022-11-23-10-03-37-PM.png",
 		"imagePosition": "0"
+	},
+	{
+		"title": "ConnectFour",
+		"desc": "Multiplayer Connect Four game using websockets",
+		"url": "https://connectfour.ccreativecnd.repl.co",
+		"src": "github.com/caburum/ConnectFour",
+		"lang": "JavaScript",
+		"image": "https://files.calum.ml/2023/05/msedge_2023-05-18-06-39-54-PM.png",
+		"imagePosition": "bottom"
 	},
 	{
 		"title": "Cabot",
