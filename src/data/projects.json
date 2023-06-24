@@ -1,8 +1,17 @@
 [
 	{
+		"title": "SC 4-H Fair App v2",
+		"desc": "PWA for the 4-H Fair, with announcements, map, scavenger hunt, interests database, and more",
+		"url": "sc4hfair.app",
+		"src": "github.com/cyfinfaza/sc4hfair-sveltekit",
+		"lang": "SvelteKit",
+		"image": "https://files.calum.ml/2022/11/2022-11-23-09-09-58-PM.png",
+		"imagePosition": "top"
+	},
+	{
 		"title": "discord-memes",
 		"desc": "Site to show random memes from a Discord server",
-		"url": "https://memes.4hcomputers.club",
+		"url": "memes.4hcomputers.club",
 		"src": "github.com/caburum/discord-memes",
 		"lang": "JavaScript",
 		"image": "https://files.calum.ml/2023/05/Code_2023-05-18-06-56-54-PM.png"
@@ -40,18 +49,10 @@
 	{
 		"title": "scoutradioz-team-map",
 		"desc": "A map of teams using Scoutradioz™",
-		"url": "https://scoutradioz-team-map.vercel.app/",
+		"url": "scoutradioz-team-map.vercel.app",
 		"src": "github.com/caburum/scoutradioz-team-map",
 		"lang": "SvelteKit",
 		"image": "https://files.calum.ml/2023/05/msedge_2023-05-18-07-02-57-PM.png"
-	},
-	{
-		"title": "SC 4-H Fair App v2",
-		"desc": "The new app for the fair, now in Svelte with more features",
-		"url": "sc4hfair.app",
-		"src": "github.com/cyfinfaza/sc4hfair-sveltekit",
-		"lang": "SvelteKit",
-		"image": "https://files.calum.ml/2022/11/2022-11-23-09-09-58-PM.png"
 	},
 	{
 		"title": "SC 4-H Fair App (2022)",
