@@ -21,7 +21,8 @@ export const themes = [
 
 export const theme = writable(
 	(browser &&
-		(window.localStorage.getItem('theme') ||
+		((themes.map((t) => t.id).includes(window.localStorage.getItem('theme') || '') &&
+			window.localStorage.getItem('theme')) ||
 			(window.matchMedia('(prefers-color-scheme: light)').matches && 'light'))) ||
 		'dark'
 );

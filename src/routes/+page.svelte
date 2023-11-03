@@ -17,12 +17,13 @@
 	<h1>Projects</h1>
 
 	<div class="cards">
-		{#each projects as project}
+		{#each projects as project, index}
 			<div
 				class="card"
 				class:image={project.image}
 				style:--image={project.image ? `url(${project.image})` : null}
 				style:background-position={project.imagePosition ?? null}
+				style:animation-delay={0.1 * Math.pow(index, 0.4) + 's'}
 			>
 				<h1>{project.title}</h1>
 				<p class="desc">{project.desc}</p>
@@ -76,6 +77,14 @@
 			'title icons'
 			'subtitle icons'
 			'desc icons';
+
+		animation: zoomin 0.5s backwards ease;
+		@keyframes zoomin {
+			0% {
+				transform: scale(0.88);
+				opacity: 0;
+			}
+		}
 
 		&.image {
 			background-image: linear-gradient(
