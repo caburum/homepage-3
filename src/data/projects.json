@@ -11,11 +11,12 @@
 		"desc": "Raspberry Pi powered timelapse camera with web UI",
 		"src": "github.com/caburum/raspicam-timelapse",
 		"lang": "JavaScript",
-		"image": "https://images.unsplash.com/photo-1631553127988-36343ac5bb0c?w=800&q=80"
+		"image": "https://res.cloudinary.com/calum-files/image/upload/t_homepage/sx/msedge_2023-11-21-07-28-29-PM.png"
 	},
 	{
 		"title": "miq",
-		"desc": "Mic cue automation software, I specifically worked on SQ support",
+		"desc": "Mic cue automation software, I specifically worked on SQ support and UX improvements",
+		"url": "miq.cy2.me",
 		"src": "github.com/cyfinfaza/miq",
 		"lang": "Svelte",
 		"image": "https://res.cloudinary.com/calum-files/image/upload/t_homepage/sx/2023/miq.jpg"
