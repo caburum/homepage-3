@@ -70,7 +70,7 @@
 
 	.card {
 		display: grid;
-		grid-gap: 0.25rem;
+		grid-gap: 0.25em 0.5em;
 		grid-template-columns: auto min-content;
 		grid-template-rows: min-content 1fr max-content;
 		grid-template-areas:

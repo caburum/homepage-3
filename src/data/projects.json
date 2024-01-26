@@ -1,10 +1,24 @@
 [
 	{
+		"title": "robot2024",
+		"desc": "Parts of FRC Team 102's 2024 robot for CRESCENDO",
+		"src": "github.com/FIRSTTeam102/robot2024",
+		"lang": "WPILib/Java",
+		"image": "https://res.cloudinary.com/calum-files/image/upload/t_homepage/sx/msedge_2024-01-26-06-53-06-PM.png"
+	},
+	{
 		"title": "TasmotaQS",
 		"desc": "Android Quick Settings tile for controlling Tasmota lights",
 		"src": "github.com/caburum/TasmotaQS",
 		"lang": "Kotlin",
 		"image": "https://res.cloudinary.com/calum-files/image/upload/t_homepage/sx/2023/tasmotaqs.png"
+	},
+	{
+		"title": "autotorcher",
+		"desc": "Minecraft mod to automatically light up an area",
+		"src": "github.com/caburum/autotorcher",
+		"lang": "Fabric/Java",
+		"image": "https://res.cloudinary.com/calum-files/image/upload/t_homepage/sx/2024-01-26-06-43-51-PM.png"
 	},
 	{
 		"title": "raspicam-timelapse",
@@ -20,6 +34,13 @@
 		"src": "github.com/cyfinfaza/miq",
 		"lang": "Svelte",
 		"image": "https://res.cloudinary.com/calum-files/image/upload/t_homepage/sx/2023/miq.jpg"
+	},
+	{
+		"title": "xrpwifidrive",
+		"desc": "WebSocket control for XRP robots",
+		"src": "github.com/FIRSTTeam102/xrpwifidrive",
+		"lang": "Python/JavaScript",
+		"image": "https://res.cloudinary.com/calum-files/image/upload/t_homepage/sx/2024-01-26-06-49-36-PM.png"
 	},
 	{
 		"title": "SC 4-H Fair App v2",
@@ -50,6 +71,7 @@
 	{
 		"title": "Pinchy",
 		"desc": "FRC Team 102's 2023 robot for CHARGED UP",
+		"url": "youtu.be/aTfI4KjogBU",
 		"src": "github.com/FIRSTTeam102/Robot2023",
 		"lang": "WPILib/Java",
 		"image": "https://res.cloudinary.com/calum-files/image/upload/t_homepage/sx/2023/ApplicationFrameHost_2023-05-18-06-58-37-PM.png",
