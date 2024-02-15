@@ -1,10 +1,18 @@
-import adapter from '@sveltejs/adapter-auto';
+import adapterAuto from '@sveltejs/adapter-auto';
+import adapterCloudflare from '@sveltejs/adapter-cloudflare';
 import sveltePreprocess from 'svelte-preprocess';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
 	kit: {
-		adapter: adapter(),
+		adapter: process.env.CF_PAGES
+			? adapterCloudflare({
+					routes: {
+						include: ['/*'],
+						exclude: ['<all>'] // has prerendered pages
+					}
+				})
+			: adapterAuto(),
 		alias: {
 			assets: 'src/assets/*',
 			components: 'src/components/*',
