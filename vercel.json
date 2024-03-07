@@ -1,6 +1,13 @@
 {
 	"github": {
-		"silent": true
+		"deploymentEnabled": false
 	},
-	"trailingSlash": false
+	"trailingSlash": false,
+	"redirects": [
+		{
+			"source": "/:path*",
+			"destination": "https://caburum.is-a.dev/:path*",
+			"statusCode": 301
+		}
+	]
 }
