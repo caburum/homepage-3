@@ -35,16 +35,16 @@ $padding-md: 1rem;
 }
 
 .theme-light {
-	--surface-00dp: #fefefe;
-	--surface-01dp: #fafafa;
-	--surface-02dp: #f9f9f9;
-	--surface-03dp: #f8f8f8;
-	--surface-04dp: #f7f7f7;
-	--surface-06dp: #f7f7f7;
-	--surface-08dp: #f6f6f6;
-	--surface-12dp: #f5f5f5;
-	--surface-16dp: #f2f2f2;
-	--surface-24dp: #f0f0f0;
+	--surface-00dp: #ffffff;
+	--surface-01dp: #f5f5f5;
+	--surface-02dp: #f0f0f0;
+	--surface-03dp: #ebebeb;
+	--surface-04dp: #e6e6e6;
+	--surface-06dp: #e0e0e0;
+	--surface-08dp: #d9d9d9;
+	--surface-12dp: #d2d2d2;
+	--surface-16dp: #cbcbcb;
+	--surface-24dp: #c4c4c4;
 
 	--text: #111;
 	--text-emphasized: #050505;
@@ -136,7 +136,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .card {
-	background-color: var(--surface-01dp);
+	background-color: var(--surface-02dp);
+	color: var(--text);
 	padding: $padding-md;
 	border-radius: $border-radius;
 	transition: background-color $transition;

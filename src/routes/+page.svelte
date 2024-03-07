@@ -21,6 +21,7 @@
 			<div
 				class="card"
 				class:image={project.image}
+				class:theme-dark={project.image}
 				style:--image={project.image ? `url(${project.image})` : null}
 				style:background-position={project.imagePosition ?? null}
 				style:animation-delay={0.1 * Math.pow(index, 0.4) + 's'}
