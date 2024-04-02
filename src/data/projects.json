@@ -1,5 +1,12 @@
 [
 	{
+		"title": "TasmotaLightEqualizer",
+		"desc": "ESP8266 that adjusts light dimmer to keep a constant brightness level by reading from a photocell",
+		"src": "github.com/caburum/TasmotaLightEqualizer",
+		"lang": "C++",
+		"image": "https://res.cloudinary.com/calum-files/image/upload/t_homepage/sx/vlcsnap-2024-04-02-17h13m52s946.png"
+	},
+	{
 		"title": "robot2024",
 		"desc": "Base of FRC Team 102's 2024 robot for CRESCENDO",
 		"src": "github.com/FIRSTTeam102/robot2024/tree/806c3d87345dd487e9e89cc572724c3e81a33c69",
