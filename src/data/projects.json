@@ -1,5 +1,44 @@
 [
 	{
+		"title": "SC 4-H Fair Notification Sender",
+		"desc": "Tool for fair managers to quickly send out notifications/emergency alerts to fairgoers",
+		"src": "github.com/caburum/sc4hfair-notification-sender",
+		"lang": "SvelteKit",
+		"image": "https://res.cloudinary.com/calum-files/image/upload/t_homepage/sx/notify.sc4hfair.app_.png",
+		"imagePosition": "top"
+	},
+	{
+		"title": "windows-remote-start",
+		"desc": "Sleep/wake a Windows computer remotely through another computer",
+		"src": "github.com/caburum/windows-remote-start",
+		"lang": "Python",
+		"image": "https://res.cloudinary.com/calum-files/image/upload/t_homepage/sx/windows-remote-start.png",
+		"imagePosition": "top"
+	},
+	{
+		"title": "Minecraft Realms API",
+		"desc": "Playtime tracking and reverse engineering of various Minecraft Realms/Stories APIs",
+		"src": "github.com/caburum/minecraft-realms-playground",
+		"lang": "Python",
+		"image": "https://res.cloudinary.com/calum-files/image/upload/t_homepage/sx/minecraft-realms-playground.png"
+	},
+	{
+		"title": "random-gphoto",
+		"desc": "Web app that randomly shows a photo from your Google Photos library",
+		"src": "github.com/caburum/random-gphoto",
+		"lang": "Svelte",
+		"image": "https://res.cloudinary.com/calum-files/image/upload/t_homepage/sx/random-gphoto.png",
+		"imagePosition": "bottom"
+	},
+	{
+		"title": "discord-latejoinalert",
+		"desc": "Discord bot that pings a user when they don't join VC on time",
+		"src": "github.com/caburum/discord-latejoinalert",
+		"lang": "Python",
+		"image": "https://res.cloudinary.com/calum-files/image/upload/t_homepage/sx/Discord_2024-10-13-07-15-52-PM.png",
+		"imagePosition": "bottom"
+	},
+	{
 		"title": "TasmotaLightEqualizer",
 		"desc": "ESP8266 that adjusts light dimmer to keep a constant brightness level by reading from a photocell",
 		"src": "github.com/caburum/TasmotaLightEqualizer",
@@ -51,7 +90,7 @@
 	},
 	{
 		"title": "SC 4-H Fair App v2",
-		"desc": "PWA for the 4-H Fair, with announcements, map, scavenger hunt, interests database, and more",
+		"desc": "PWA for the 4-H Fair, with announcements, map, scavenger hunt, interests database, notifications, and more",
 		"url": "sc4hfair.app",
 		"src": "github.com/cyfinfaza/sc4hfair-sveltekit",
 		"lang": "SvelteKit",

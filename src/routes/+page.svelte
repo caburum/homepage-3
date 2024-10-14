@@ -12,7 +12,11 @@
 
 <main>
 	<h1 style:font-size="3em">Hi, I'm Calum, a.k.a Caburum.</h1>
-	<p>I'm a student dev, mostly working on web development and robotics.</p>
+	<p>I'm a student dev, mostly working on web/systems development.</p>
+	<p>
+		I'm currently studying Systems Engineering and Design at the University of Illinois
+		Urbana-Champaign.
+	</p>
 
 	<h1>Projects</h1>
 

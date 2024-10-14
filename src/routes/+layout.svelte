@@ -28,8 +28,9 @@
 		<ul>
 			<li><a href="/">Home</a></li>
 			<li><a href="https://github.com/caburum">GitHub</a></li>
-			<li><a href="https://youtube.com/@caburum">YouTube</a></li>
-			<li><a href="https://community.fandom.com/wiki/User:Caburum">Fandom</a></li>
+			<li><a href="https://www.linkedin.com/in/calum-dingwall/">LinkedIn</a></li>
+			<!--li><a href="https://youtube.com/@caburum">YouTube</a></li-->
+			<li><a href="https://dev.fandom.com/wiki/User:Caburum">Fandom</a></li>
 			<li>
 				<div
 					aria-label={currentTheme.name}
