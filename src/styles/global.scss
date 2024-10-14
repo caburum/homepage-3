@@ -1,3 +1,5 @@
+@use 'sass:color';
+
 :root {
 	scroll-behavior: smooth;
 }
@@ -28,7 +30,7 @@ $padding-md: 1rem;
 	--text-subtle: #c5c5c5;
 
 	--accent: #028388;
-	--accent-hover: #{lighten(#028388, 10%)};
+	--accent-hover: #{color.adjust(#028388, $lightness: 10%)};
 	--accent-label: #fff;
 
 	--image-dimmer-color: 0, 0, 0;
@@ -51,7 +53,7 @@ $padding-md: 1rem;
 	--text-subtle: #333;
 
 	--accent: #026A6E;
-	--accent-hover: #{darken(#026A6E, 5%)};
+	--accent-hover: #{color.adjust(#026A6E, $lightness: -5%)};
 	--accent-label: #fff;
 	
 	--image-dimmer-color: 255, 255, 255;
