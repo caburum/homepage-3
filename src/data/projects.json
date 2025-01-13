@@ -1,5 +1,12 @@
 [
 	{
+		"title": "Dial-A-Carol",
+		"desc": "Demo interactive map/admin panel to track UIUC's Dial-A-Carol callers",
+		"src": "github.com/caburum/dial-a-carol",
+		"lang": "SvelteKit",
+		"image": "https://res.cloudinary.com/calum-files/image/upload/t_homepage/sx/dial-a-carol.vercel.app_.png"
+	},
+	{
 		"title": "SC 4-H Fair Notification Sender",
 		"desc": "Tool for fair managers to quickly send out notifications/emergency alerts to fairgoers",
 		"src": "github.com/caburum/sc4hfair-notification-sender",

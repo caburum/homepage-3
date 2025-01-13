@@ -1,0 +1,3 @@
+# https://developers.cloudflare.com/pages/configuration/redirects/
+/github https://github.com/caburum 301
+/linkedin https://www.linkedin.com/in/calum-dingwall/ 301
