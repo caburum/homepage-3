@@ -16,7 +16,7 @@
 	},
 	{
 		"title": "Dial-A-Carol",
-		"desc": "Demo interactive map/admin panel to track UIUC's Dial-A-Carol callers",
+		"desc": "Interactive map to track UIUC's Dial-A-Carol callers",
 		"src": "github.com/caburum/dial-a-carol",
 		"lang": "SvelteKit",
 		"image": "https://res.cloudinary.com/calum-files/image/upload/t_homepage/sx/dial-a-carol.vercel.app_.png"
