@@ -1,5 +1,13 @@
 [
 	{
+		"title": "Dial-A-Carol",
+		"desc": "Interactive map to track UIUC's Dial-A-Carol callers",
+		"url": "dial-a-carol.vercel.app",
+		"src": "github.com/caburum/dial-a-carol",
+		"lang": "SvelteKit",
+		"image": "https://res.cloudinary.com/calum-files/image/upload/t_homepage/sx/dial-a-carol.vercel.app_.png"
+	},
+	{
 		"title": "SC 4-H Fair Admin Panel",
 		"desc": "Centralized hub for all incoming data and outgoing analytics for the fair",
 		"src": "github.com/caburum/sc4hfair-admin",
@@ -13,13 +21,6 @@
 		"src": "github.com/caburum/TasmotaSwitch",
 		"lang": "C++",
 		"image": "https://res.cloudinary.com/calum-files/image/upload/t_homepage/sx/2025-08-09-06-00-18-PM.png"
-	},
-	{
-		"title": "Dial-A-Carol",
-		"desc": "Interactive map to track UIUC's Dial-A-Carol callers",
-		"src": "github.com/caburum/dial-a-carol",
-		"lang": "SvelteKit",
-		"image": "https://res.cloudinary.com/calum-files/image/upload/t_homepage/sx/dial-a-carol.vercel.app_.png"
 	},
 	{
 		"title": "SC 4-H Fair Notification Sender",
